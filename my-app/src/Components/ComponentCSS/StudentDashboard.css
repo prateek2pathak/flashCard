@@ -1,0 +1,70 @@
+.student-dashboard {
+    background-color: #121212;
+    color: #E0E0E0;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+h1, h2 {
+    color: #BB86FC;
+}
+
+select {
+    background-color: #2A2A2A;
+    color: #E0E0E0;
+    padding: 10px;
+    border: 2px solid #BB86FC;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 300px;
+}
+
+.flashcard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2563EB;
+}
+
+button:disabled {
+    background-color: #3B82F6;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+p {
+    color: #fefefe;
+    margin-top: 20px;
+}

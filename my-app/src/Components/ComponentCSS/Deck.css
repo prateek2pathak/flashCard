@@ -1,0 +1,17 @@
+.deck {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: fit-content;
+  }
+  
+  .deck h3 {
+    margin: 0;
+  }
+  
+  .deck button {
+    margin-right: 5px;
+  }
+  
